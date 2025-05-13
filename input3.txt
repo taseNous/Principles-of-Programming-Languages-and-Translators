@@ -1,0 +1,20 @@
+PROGRAM code
+FUNCTION hlikia(age)
+VARS
+INTEGER age18;
+WHILE(age!=0)
+IF(age>age18)THEN
+PRINT("adult");
+ELSE
+PRINT("underage");
+ENDIF
+BREAK;
+ENDWHILE
+RETURN 0
+ENDFUNCTION
+STARTMAIN 
+VARS
+INTEGER choseage;
+choseage=5;
+hlikia(choseage);
+ENDMAIN

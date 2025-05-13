@@ -1,0 +1,12 @@
+PROGRAM code
+STARTMAIN
+INTEGER num,var;
+SWITCH(var+1)
+CASE(1)
+PRINT("caseone"[,num]);
+CASE(2)
+PRINT("casetwo"[,num]);
+DEFAULT
+PRINT("casethree"[,num]);
+ENDSWITCH
+ENDMAIN

@@ -1,0 +1,26 @@
+PROGRAM code
+STRUCT str1  
+VARS
+INTEGER array1[2] /* comment */ INTEGER c1,c2 CHAR c3,c4;
+ENDSTRUCT
+FUNCTION func(a,b,par)
+VARS
+INTEGER v1,v2 CHAR bathmos,v4 INTEGER array[1];
+IF(y>5)THEN
+bathmos=1;
+ELSE
+batmos=0;
+ENDIF
+RETURN 0
+ENDFUNCTION
+STARTMAIN 
+VARS
+INTEGER v1,v2 CHAR v3,v4 INTEGER array[1];
+FOR COUNTER = 1 TO 5 STEP 1
+PRINT("BATHMOLOGIES"[,array]);
+ENDFOR
+WHILE(v1!=0)
+func(v1,v2,v3);
+v4=(v1+v2+v3)/2;
+ENDWHILE
+ENDMAIN
